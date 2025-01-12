@@ -1,0 +1,93 @@
+/* تنسيق الهيدر */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url(images/istockphoto-2173382065-612x612.jpg) center center/ cover no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .hero .btn  {
+    border: 1px solid rgb(42, 110, 165);
+  }
+  
+  .hero .btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  /* خدمات */
+  .services {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #dfdfdf;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  
+  /* Contact Section */
+  .contact {
+    padding: 60px 20px;
+    background-color: #f9f9f9d0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+ .contact input {
+    margin-bottom: 20px;
+ }
+ .contact input[type="submit"]{
+    padding: 15px 20px;
+    margin-top: 20px;
+    transition: 0.3s ease;
+ }
+ .contact input[type="submit"]:hover{
+    background-color:transparent;
+    border: 1px solid rgb(42, 110, 165);
+    color: black;
+ }
